@@ -30,9 +30,8 @@ body {
       transparent
     );
   background-size: var(--size) var(--size);
-
-
 }
+
   section {
     border-bottom: #8fc5e9;
     border-radius: 12px;
