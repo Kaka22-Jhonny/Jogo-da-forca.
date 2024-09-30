@@ -4,7 +4,42 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+
+  width: 100%;
+  height: 100%;
+  --size: 80px;
+  --color: #8fc5e9;
+
+  background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 40%,
+      #8fc5e9 41%,
+      #8fc5e9 60%,
+      transparent 61%,
+      transparent 100%
+    ),
+    linear-gradient(
+      45deg,
+      #8fc5e9 25%,
+      transparent 25%,
+      transparent 50%,
+      #8fc5e9 50%,
+      #8fc5e9 75%,
+      transparent 75%,
+      transparent
+    );
+  background-size: var(--size) var(--size);
+
+
 }
+  section {
+    border-bottom: #8fc5e9;
+    border-radius: 12px;
+    border-width: 0px; 
+    background-color:#8fc5e9;
+    
+  }
 
   img.livro-logo {
     max-width: 60%;
@@ -22,11 +57,16 @@ body {
   }
 
   h2 {
-    color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
   }
 
   h3 {
     color: blue;
+  }
+
+  li {
+    color: white;
+    list-style:none ;
   }
 
   .bnt-play {
@@ -50,4 +90,5 @@ body {
     padding: 15px 0;
     margin-top: 20px;
   }
+
   
